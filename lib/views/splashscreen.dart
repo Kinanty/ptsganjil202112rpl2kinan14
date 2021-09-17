@@ -29,9 +29,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.restaurant_menu,),
-            SizedBox(width: 10),
-            Text("Food Recipe"),
+            Icon(Icons.restaurant_menu, size: 70,),
           ],
         ),
       ),
